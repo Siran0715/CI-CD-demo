@@ -8,6 +8,6 @@ public class HelloController {
 
     @GetMapping("/api/hello")
     public String hello() {
-        return "Successfully completed CI/CD";
+        return "Successfully completed CI/CD. Using Git/Github, Render and Shell scripting";
     }
 }
